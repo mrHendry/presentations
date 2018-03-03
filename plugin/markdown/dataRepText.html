@@ -22,10 +22,12 @@
                 <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
                 <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
-                <section data-markdown data-separator="---">
+                <section data-markdown data-separator="---" data-separator-vertical="^\n--\n$">
                     <script type="text/template">
                        # Representation of Bit-Mapped Graphics
-                       ---
+                       
+                       --
+                       
                        ![](graphics/dataRep/text/Example.png)
                        ---
                     </script>
